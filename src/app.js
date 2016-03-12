@@ -21,7 +21,9 @@ ajax(
 var main = new UI.Menu({
 	sections: [{
 		title: 'Receipts',
-		items:[{
+		items:[{  title: 'Order 08852',
+						subtitle: 'Some subtitle',
+						icon: 'images/fmb.png'
 	
 }]
 }]
@@ -29,3 +31,10 @@ var main = new UI.Menu({
   
 
 main.show();
+main.selection(function(e) {
+  console.log('Currently selected item is #' + e.itemIndex + ' of section #' + e.sectionIndex);
+  console.log('The item is titled "' + e.item.title + '"');
+	var card= new UI.Card({
+			
+	});
+});
