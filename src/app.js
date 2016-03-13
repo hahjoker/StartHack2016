@@ -1,6 +1,13 @@
 var UI = require('ui');
 var Vector2 = require('vector2');
 var ajax = require('ajax');
+
+
+var splashScreen = new UI.Card({ banner: 'images/appicon'});
+splashScreen.body("wristReceipt, by Pranav Chaudhari");
+splashScreen.show();
+
+
 var main = new UI.Menu({
 	sections: 
 	[{
@@ -33,7 +40,12 @@ var main = new UI.Menu({
 	}]
 });
 
-main.show();
+setTimeout(function() {
+  // Display the mainScreen
+  main.show();
+  // Hide the splashScreen to avoid showing it when the user press Back.
+  splashScreen.hide();
+}, 1000);
 main.on('select',function(e) 
 	{	
 		var secondScreen= new UI.Window({fullscreen: true}); 
