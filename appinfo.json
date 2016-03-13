@@ -3,8 +3,8 @@
     "capabilities": [
         ""
     ],
-    "companyName": "awesomesauceproduction@gmail.c",
-    "longName": "wristRecipt",
+    "companyName": "Pranav Chaudhari",
+    "longName": "wristReceipt",
     "projectType": "pebblejs",
     "resources": {
         "media": [
@@ -30,6 +30,36 @@
                 "type": "font"
             },
             {
+                "file": "images/menuicon.png",
+                "name": "IMAGES_MENUICON_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/truck.png",
+                "name": "IMAGES_TRUCK_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/dollar.png",
+                "name": "IMAGES_DOLLAR_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/cancel.png",
+                "name": "IMAGES_CANCEL_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/return.png",
+                "name": "IMAGES_RETURN_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/qr.png",
+                "name": "IMAGES_QR_PNG",
+                "type": "png"
+            },
+            {
                 "file": "images/fmb.png",
                 "name": "IMAGES_FMB_PNG",
                 "type": "png"
@@ -37,12 +67,12 @@
         ]
     },
     "sdkVersion": "3",
-    "shortName": "wristRecipt",
+    "shortName": "wristReceipt",
     "targetPlatforms": [
         "aplite",
         "basalt"
     ],
-    "uuid": "1fe3ac5e-d438-45f7-96bc-0d34d668630e",
+    "uuid": "68c96058-f2c1-49d9-8a88-fde345e1e1e5",
     "versionCode": 1,
     "versionLabel": "1.0",
     "watchapp": {
