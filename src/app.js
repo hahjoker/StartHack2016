@@ -135,6 +135,7 @@ main.on('select',function(e)
 									);
         					break;
 							}
+						finalmenu.title("Final Output");
 						finalmenu.show();
 						 console.log('Currently selected item is #' + e.itemIndex + ' of section #' + e.sectionIndex);
 						 console.log('The item is titled "' + e.item.title + '"');
